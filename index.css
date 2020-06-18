@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 52.5%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    width: 100%;
+  }
+    .images {
+    content: "";
+    clear: both;
+    display: table;
+    border-color:red;
+    }
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+    .column2 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+    .column3 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+  }
+  
+  .button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid black;
+  }
+  
+  nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  nav a {
+    font-size: 3rem;
+    text-decoration: none;
+  }
+  
+  section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  section div {
+    width: 30%;
+    margin: 0;
+  }
+  
+  section div h2 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 2.2em;
+  }
+  
+  p {
+    font-size:3em;
+      text-align: center;
+    display:flex;
+  }
+  section div p {
+    font-size: 5.6rem;
+  }
+  
+  .name {
+    font-size:5em;
+    text-align:center;
+  }
+  .myProjects {
+      display:block;
+  text-align:center;
+  }
+  h2 {
+    text-align:center;
+  }
+  footer {
+    margin:3em 3.5em 1em;
+    background: gray;
+  }
+  
+  @media(max-width: 800px){
+      body nav {
+      flex-direction: row;
+      align-items: center;
+      height: 250px;
+      margin-bottom: 30px;
+    }
+    .images {
+    content: "";
+    clear: both;
+    display: table;
+    border-color:red;
+    }
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+    .column2 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+    .column3 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+    }
+  
+  @media(max-width: 500px){
+    body nav {
+      flex-direction: column;
+      align-items: center;
+      height: 250px;
+      margin-bottom: 30px;
+    }
+    .images {
+    content: "";
+    clear: both;
+    display: table;
+    border-color:red;
+    }
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+    .column2 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+    .column3 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+    }
